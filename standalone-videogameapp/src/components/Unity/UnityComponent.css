@@ -1,3 +1,7 @@
 /* iframe.webform-frame > .game_frame {
     background-color: teal;
 } */
+
+iframe {
+    height: 590px !important;
+}
