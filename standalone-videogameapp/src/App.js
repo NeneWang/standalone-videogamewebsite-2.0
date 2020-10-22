@@ -120,6 +120,7 @@ class App extends React.Component {
       <div className="App">
         <Nav token={localStorage.getItem('token')} handleLogout={this.handleLogOut}/>
         <Switch>
+          
           <Route path={'/login'} render={() => <Login handleEmailSubmit={this.handleEmailSubmit}/>}/>
           <Route path={'/game'} render={() => <UnityComponent/> } />
         </Switch>

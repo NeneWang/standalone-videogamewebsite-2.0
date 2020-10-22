@@ -28,7 +28,7 @@ class Login extends React.Component {
 
     render = () => {
         return (
-            <div className="container">
+            <div className="container" style={{paddingTop:'25px'}} >
 
 <div className='background-image' style={{backgroundImage: `url(${backgroundImage})`}}  >
 
